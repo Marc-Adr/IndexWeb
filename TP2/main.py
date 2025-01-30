@@ -1,8 +1,8 @@
-from indexing import *
+from TP2.indexing import *
 import json
 
 #Importation du jsonl
-produits = open_jsonl("products.jsonl")
+produits = open_jsonl("TP2/products.jsonl")
 
 #Regerder le détaille d'une url d'un produit (son id et ses variants)
 url = produits[0]["url"] #Récupération de l'url de la page principal
