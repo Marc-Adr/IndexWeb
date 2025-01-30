@@ -100,10 +100,3 @@ class Crawler:
                 time.sleep(1)  # Pause pour éviter de surcharger le serveur (politesse)
         
         self.save_data()
-    
-
-
-if __name__ == "__main__":
-    start_url = "https://web-scraping.dev/products"
-    crawler = Crawler(start_url)
-    crawler.crawl()
