@@ -1,4 +1,4 @@
-from TP2.indexing import *
+from indexing import *
 import json
 
 #Importation du jsonl
